@@ -1,0 +1,27 @@
+.container-header{
+    background-color: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+    li{
+        padding: 25px;
+    }
+
+    li:hover{
+        background-color: var(--light-brown);
+        transition: 0.2s;
+        color: var(--primary);
+        cursor: pointer;
+    }
+}

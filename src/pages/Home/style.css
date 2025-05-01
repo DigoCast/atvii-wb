@@ -1,0 +1,11 @@
+.container-home{
+    height: 100vh;
+}
+.session-cards{
+    padding: 30px 5%;
+    h2{
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+}
+
