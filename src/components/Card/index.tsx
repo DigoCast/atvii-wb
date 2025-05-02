@@ -1,18 +1,25 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
-class Card extends React.Component {
+interface CardProps{
+  title: string
+  image: string 
+  descricao: string
+  link: string
+}
+class Card extends React.Component<CardProps> {
   render(): React.ReactNode {
     return (
       <div className="card">
         <div className="card-image">
-          <img src={require("../../assets/images/user.png")} alt="Usuário" />
+          <img src={this.props.image} alt="img-icon" />
         </div>
-        <h2 className="card-title">Cadastrar Cliente</h2>
-        <p className="card-description">
-          Adicione um novo cliente ao sistema para gerenciar suas informações e consumo.
-        </p>
-        <button className="card-button">Cadastrar</button>
+        <h2 className="card-title">{this.props.title}</h2>
+        <p className="card-description">{this.props.descricao}</p>
+        <Link to={this.props.link} style={{ color: "inherit" }}> 
+          <button className="card-button">Cadastrar</button>
+        </Link>
       </div>
     );
   }
