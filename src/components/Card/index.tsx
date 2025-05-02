@@ -18,7 +18,7 @@ class Card extends React.Component<CardProps> {
         <h2 className="card-title">{this.props.title}</h2>
         <p className="card-description">{this.props.descricao}</p>
         <Link to={this.props.link} style={{ color: "inherit" }}> 
-          <button className="card-button">Cadastrar</button>
+          <button className="card-button">Pagina de {this.props.title}</button>
         </Link>
       </div>
     );

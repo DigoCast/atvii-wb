@@ -7,10 +7,18 @@ class Footer extends React.Component  {
     <div className='container-footer'>
       <h4>World Beauty</h4>
       <div className='container-icons'>
-        <i className="fa-brands fa-github fa-xl" style={{color: "#401D10"}}></i>
-        <i className="fa-brands fa-instagram fa-xl" style={{color: "#401D10"}}></i>
-        <i className="fa-brands fa-linkedin fa-xl" style={{color: "#401D10"}}></i>
-        <i className="fa-brands fa-whatsapp fa-xl" style={{color: "#401D10"}}></i>
+        <a href="https://github.com/DigoCast" target='_blank'>
+          <i className="fa-brands fa-github fa-xl" style={{color: "#401D10"}}></i>
+        </a>
+        <a href="https://www.instagram.com/diego_.cast/" target='_blank'>
+          <i className="fa-brands fa-instagram fa-xl" style={{color: "#401D10"}}></i>
+        </a>
+        <a href="https://www.linkedin.com/in/diego-castilho-8b87a8301/" target='_blank'>
+          <i className="fa-brands fa-linkedin fa-xl" style={{color: "#401D10"}}></i>
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-whatsapp fa-xl" style={{color: "#401D10"}}></i>
+        </a>
       </div>
       <p>Copyright© - 2025; Designed by Diego Castilho</p>
     </div>

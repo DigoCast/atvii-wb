@@ -16,13 +16,13 @@ class Home extends React.Component {
           <h2>Serviços Disponiveis</h2>
           <div className="cards-container">
             <div className="card-div">
-              <Card title="Cadastro Cliente" image={userIcon} descricao="Adicione um novo cliente ao sistema para gerenciar suas informações e consumo." link="/cliente"/>
+              <Card title="Clientes" image={userIcon} descricao="Adicione, atualize ou exclua um cliente ao sistema para gerenciar suas informações e consumo." link="/cliente"/>
             </div>
             <div className="card-div">
-              <Card title="Cadastro Produtos" image={productsIcon} descricao="Adicione um novo produto ao sistema para gerenciar suas informações e consumo." link="/produto"/>
+              <Card title="Produtos" image={productsIcon} descricao="Adicione, atualize ou exclua um produto ao sistema para gerenciar suas informações e consumo." link="/produto"/>
             </div>
             <div className="card-div">
-              <Card title="Cadastro Serviços" image={servicesIcon} descricao="Adicione um novo serviços ao sistema para gerenciar suas informações e consumo." link="/servico"/>
+              <Card title="Serviços" image={servicesIcon} descricao="Adicione, atualize ou exclua um serviços ao sistema para gerenciar suas informações e consumo." link="/servico"/>
             </div>
           </div>
         </div>
