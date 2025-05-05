@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import SearchBar from "../../components/SearchBar";
+import { Link } from "react-router-dom";
 
 class Cliente extends React.Component {
   render(): React.ReactNode {
@@ -12,7 +13,7 @@ class Cliente extends React.Component {
             <SearchBar placeholder="Digite o CPF do cliente" />
           </div>
           <div className="button-cadastro">
-            <span>Cadastrar Cliente</span>
+            <Link to={"/cadastrocliente"} style={{ color: "inherit" }}><span>Cadastrar Cliente</span></Link>
           </div>
         </div>
       </div>

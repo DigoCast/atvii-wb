@@ -10,7 +10,7 @@ class Footer extends React.Component  {
         <a href="https://github.com/DigoCast" target='_blank'>
           <i className="fa-brands fa-github fa-xl" style={{color: "#401D10"}}></i>
         </a>
-        <a href="https://www.instagram.com/diego_.cast/" target='_blank'>
+        <a href="https://www.instagram.com/diego_.cast/" target='_blank' >
           <i className="fa-brands fa-instagram fa-xl" style={{color: "#401D10"}}></i>
         </a>
         <a href="https://www.linkedin.com/in/diego-castilho-8b87a8301/" target='_blank'>

@@ -1,5 +1,6 @@
 import React from "react"
 import SearchBar from "../../components/SearchBar";
+import { Link } from "react-router-dom";
 
 class Servico extends React.Component {
   render(): React.ReactNode {
@@ -11,7 +12,7 @@ class Servico extends React.Component {
           <SearchBar placeholder="Digite o ID do serviço" />
         </div>
         <div className="button-cadastro">
-          <span>Cadastrar Serviço</span>
+        <Link to={"/cadastroservico"} style={{ color: "inherit" }}><span>Cadastrar Serviço</span></Link>
         </div>
       </div>
     </div>

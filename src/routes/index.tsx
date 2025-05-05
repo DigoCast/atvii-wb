@@ -6,6 +6,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Produto from "../pages/Produto";
 import Servico from "../pages/Servicos";
 import Cliente from "../pages/Cliente";
+import CadastroCliente from "../pages/CadastroCliente";
+import CadastroServico from "../pages/CadastroServico";
+import CadastroProduto from "../pages/CadastroProduto";
 
 class RouterApp extends React.Component {
   render(): React.ReactNode {
@@ -18,6 +21,9 @@ class RouterApp extends React.Component {
             <Route path="/produto" element={<Produto />} />
             <Route path="/servico" element={<Servico />} />
             <Route path="/cliente" element={<Cliente />} />
+            <Route path="/cadastrocliente" element={<CadastroCliente />} />
+            <Route path="/cadastroservico" element={<CadastroServico />} />
+            <Route path="/cadastroproduto" element={<CadastroProduto />} />
           </Routes>
           <Footer />
         </BrowserRouter>
