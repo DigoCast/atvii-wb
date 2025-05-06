@@ -17,7 +17,7 @@ class Estatistica extends React.Component {
               </p>
             </div>
             <br />
-            <button className="card-button">Estatisticas</button>
+            <button className="card-button">Painel de Controle</button>
           </div>
           <div className="image-estatistica">
             
