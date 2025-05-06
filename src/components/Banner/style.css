@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     background-image: url('../../assets/images/banner-home-wb.jpg');
+    background-attachment: fixed;
     &:before{
         background-color: rgba(0,0,0,0.6);
         content: '';
