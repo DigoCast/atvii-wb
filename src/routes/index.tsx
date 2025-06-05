@@ -9,6 +9,7 @@ import Cliente from "../pages/Cliente";
 import CadastroCliente from "../pages/CadastroCliente";
 import CadastroServico from "../pages/CadastroServico";
 import CadastroProduto from "../pages/CadastroProduto";
+import EstatisticaPage from "../pages/Estatisticas";
 
 class RouterApp extends React.Component {
   render(): React.ReactNode {
@@ -24,6 +25,7 @@ class RouterApp extends React.Component {
             <Route path="/cadastrocliente" element={<CadastroCliente />} />
             <Route path="/cadastroservico" element={<CadastroServico />} />
             <Route path="/cadastroproduto" element={<CadastroProduto />} />
+            <Route path="/estatistica" element={<EstatisticaPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

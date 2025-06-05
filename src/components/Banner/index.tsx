@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 class Banner extends React.Component {
   render(): React.ReactNode {
@@ -11,7 +12,9 @@ class Banner extends React.Component {
             Seja bem vindo ao sistema World Beauty, aqui você pode cadastrar
             seus Clientes, Produtos e servicos.
           </p>
+          <Link to="/estatistica">
             <span>Painel de Controle</span>
+          </Link>
         </div>
       </div>
     );

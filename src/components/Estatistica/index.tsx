@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 class Estatistica extends React.Component {
   render(): React.ReactNode {
@@ -17,11 +18,11 @@ class Estatistica extends React.Component {
               </p>
             </div>
             <br />
-            <button className="card-button">Painel de Controle</button>
+            <Link to={"/estatistica"}>
+              <button className="card-button">Painel de Controle</button>
+            </Link>
           </div>
-          <div className="image-estatistica">
-            
-          </div>
+          <div className="image-estatistica"></div>
         </div>
       </div>
     );
